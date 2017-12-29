@@ -59,7 +59,7 @@ console.log(oValues);
 
 
 // Loading and inspecting data
-d3.json('data/ex1.json', (data) => {
+d3.json(`${getBaseUrl()}/data/ex1.json`, (err, data) => {
   console.log(data);
   console.log('min age:', d3.min(data, (d) => d.age));
   console.log('max age:', d3.max(data, (d) => d.age));

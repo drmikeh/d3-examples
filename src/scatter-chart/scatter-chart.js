@@ -12,7 +12,7 @@ var svg = d3.select('.chart')
   .append('g')
     .attr('transform', 'translate(' + margin.left + ', ' + margin.top + ')');
 
-d3.json('/data/health-stats.json', function (err, data) {
+d3.json(`${getBaseUrl()}/data/health-stats.json`, (err, data) => {
   var yScale = d3.scaleLinear()
     .domain(d3.extent(data, d => d.expectancy))
     .range([height, 0])

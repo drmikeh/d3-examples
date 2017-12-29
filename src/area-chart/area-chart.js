@@ -12,7 +12,7 @@ const svg = d3.select('.chart')
   .append('g')
     .attr('transform', `translate(${margin.left}, ${margin.top})`);
 
-d3.json(`${getBaseUrl()}/data/stocks.json`, function (err, data) {
+d3.json(`${getBaseUrl()}/data/stocks.json`, (err, data) => {
 
   var parseTime = d3.timeParse('%Y/%m/%d');
 

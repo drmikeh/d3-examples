@@ -5,3 +5,10 @@ Here are some simple D3 examples. Some of them were taken from the Egghead cours
 ## Demo
 
 You can run the demo [here](https://drmikeh.github.io/d3-examples/).
+
+
+## TODOs
+
+* Add key to each chart
+* Make Scatter Chart more dynamic
+* Add more charts
