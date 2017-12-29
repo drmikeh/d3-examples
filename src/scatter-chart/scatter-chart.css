@@ -1,0 +1,9 @@
+.chart {
+  background: lightgray;
+  border: 1px solid black;
+  max-width: 600px;
+  max-height: 400px;
+}
+.footer {
+  margin-top: 30px;
+}

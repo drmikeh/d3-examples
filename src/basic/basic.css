@@ -1,0 +1,46 @@
+div {
+  display: block;
+  border: 1px solid lightgray;
+}
+
+a {
+  display: block;
+}
+
+.red {
+  color: red;
+}
+
+.chart {
+  background: lightgray;
+  border: 1px solid black;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.bar {
+  height: 30px;
+  margin-bottom: 3px;
+  background: lightgreen;
+  border: 1px solid black;
+}
+
+.svg-chart {
+  background: lightgray;
+  border: 1px solid black;
+  min-width: 600px;
+  min-height: 200px;
+}
+
+.svg-bar {
+  height: 30px;
+
+  color: green;
+  fill: lightgreen;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+.footer {
+  margin-top: 30px;
+}
